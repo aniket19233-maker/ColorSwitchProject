@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Arc?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="acp" prefHeight="620.0" prefWidth="607.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SettingScreen.settingScreenController">
+   <children>
+      <Label layoutX="240.0" layoutY="49.0" text="SETTINGS" textFill="WHITE">
+         <font>
+            <Font name="Helvetica Neue" size="50.0" />
+         </font>
+      </Label>
+      <Button fx:id="EAC" layoutX="217.0" layoutY="179.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="294.0" style="-fx-background-color: white; -fx-background-radius: 80;" text="ENABLE AUTO CLOUD">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="save" layoutX="249.0" layoutY="262.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="109.0" style="-fx-background-color: white; -fx-background-radius: 80;" text="SAVE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="load" layoutX="375.0" layoutY="262.0" mnemonicParsing="false" onMouseClicked="#SoundHandler" prefHeight="45.0" prefWidth="109.0" style="-fx-background-color: white; -fx-background-radius: 80;" text="LOAD">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="sm" layoutX="240.0" layoutY="365.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="247.0" style="-fx-background-color: white; -fx-background-radius: 80;" text="STOP MUSIC">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="ss" layoutX="235.0" layoutY="461.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="255.0" style="-fx-background-color: white; -fx-background-radius: 80;" text="STOP SOUNDS">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Circle fill="WHITE" layoutX="115.0" layoutY="193.0" radius="27.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="WHITE" layoutX="131.0" layoutY="209.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fill="WHITE" layoutX="104.0" layoutY="209.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fill="WHITE" layoutX="79.0" layoutY="209.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fill="WHITE" layoutX="87.0" layoutY="193.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fill="WHITE" layoutX="115.0" layoutY="293.0" radius="27.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="WHITE" layoutX="131.0" layoutY="309.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fill="WHITE" layoutX="104.0" layoutY="309.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fill="WHITE" layoutX="79.0" layoutY="309.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fill="WHITE" layoutX="87.0" layoutY="293.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Polygon fill="WHITE" layoutX="97.0" layoutY="399.0" points="6.5, -41.5, 23.5, -60.0, -10.5, -60.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon layoutX="101.0" layoutY="358.0" points="-13.0, -49.0, 19.0, -49.0, 2.0, -65.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="16.0" layoutX="97.0" layoutY="325.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="12.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="19.0" layoutX="97.0" layoutY="309.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="12.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#05feff" height="12.0" layoutX="76.0" layoutY="377.0" rotate="-15.9" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="43.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e31b83" height="12.0" layoutX="52.0" layoutY="404.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="54.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#832bd0" height="12.0" layoutX="94.0" layoutY="389.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="54.0" />
+      <Circle fill="YELLOW" layoutX="73.0" layoutY="437.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fill="#ff5700" layoutX="110.0" layoutY="423.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="19.0" layoutX="61.0" layoutY="484.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="21.0" />
+      <Arc fill="#f8f8f8" layoutX="95.0" layoutY="494.0" length="180.0" radiusX="20.0" radiusY="30.0" startAngle="90.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Line endX="-59.5" layoutX="187.0" layoutY="493.0" rotate="90.0" startX="-100.0" stroke="WHITE" strokeWidth="10.0" />
+      <Line endX="-95.045654296875" endY="3.5" layoutX="218.0" layoutY="502.0" startX="-95.04566955566406" startY="-22.601032257080078" stroke="WHITE" strokeWidth="10.0" />
+      <Line endX="-95.045654296875" endY="-6.5" layoutX="232.0" layoutY="504.0" startX="-95.045654296875" startY="-17.5" stroke="WHITE" strokeWidth="10.0" />
+      <Button fx:id="back" layoutX="70.0" layoutY="30.0" mnemonicParsing="false" prefHeight="107.0" prefWidth="109.0" style="-fx-background-radius: 80;" />
+      <Polygon layoutX="129.0" layoutY="99.0" points="-31.5, -18.5, -10.5, -4.5, -10.5, -35.5" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon layoutX="158.0" layoutY="113.0" points="-35.5, -29.5, 7.5, 0.5, -14.0, -30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="13.0" layoutX="109.0" layoutY="73.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="31.0" />
+      <Circle layoutX="138.0" layoutY="83.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+   </children>
+</AnchorPane>

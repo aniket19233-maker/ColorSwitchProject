@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+
+<AnchorPane fx:id="acp" onMouseClicked="#move" prefHeight="745.0" prefWidth="805.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TriangularObstacle.triangularObstacleController">
+   <children>
+      <Line fx:id="line1" endX="307.0" endY="258.0" layoutX="157.0" layoutY="-33.0" startX="199.0" startY="388.0" stroke="#e3108d" strokeWidth="10.0" />
+      <Line fx:id="line3" endX="420.0" endY="379.0" layoutX="144.0" layoutY="-24.0" startX="218.0" startY="379.0" stroke="#f2f207" strokeWidth="10.0" />
+      <Line fx:id="line2" endX="297.0" endY="247.0" layoutX="163.0" layoutY="-22.0" startX="394.0" startY="370.0" stroke="#0cf2d7" strokeWidth="10.0" />
+   </children>
+</AnchorPane>

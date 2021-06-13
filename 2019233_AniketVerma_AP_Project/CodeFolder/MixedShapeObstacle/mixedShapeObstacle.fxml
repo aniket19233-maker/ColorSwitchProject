@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Arc?>
+<?import javafx.scene.shape.Line?>
+
+<AnchorPane fx:id="acp" onMousePressed="#move" prefHeight="679.0" prefWidth="597.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MixedShapeObstacle.mixedShapeController">
+   <children>
+      <Arc fx:id="OYarc1" fill="YELLOW" layoutX="303.0" layoutY="426.0" length="80.0" radiusX="135.0" radiusY="139.0" startAngle="139.0" stroke="BLACK" strokeType="INSIDE" />
+      <Arc fx:id="OSBarc1" fill="#05feff" layoutX="275.0" layoutY="452.0" length="80.0" radiusX="135.0" radiusY="139.0" startAngle="49.0" stroke="BLACK" strokeType="INSIDE" />
+      <Arc fx:id="OPUarc1" fill="#8000f4" layoutX="274.0" layoutY="399.0" length="80.0" radiusX="135.0" radiusY="139.0" startAngle="229.0" stroke="BLACK" strokeType="INSIDE" />
+      <Arc fx:id="OParc1" fill="#ff0093" layoutX="244.0" layoutY="422.0" length="80.0" radiusX="135.0" radiusY="139.0" startAngle="-41.0" stroke="BLACK" strokeType="INSIDE" />
+      <Line fx:id="line1" endX="-49.5" endY="-250.0" fill="#ff0093" layoutX="370.0" layoutY="553.0" startX="-49.5" startY="104.0" stroke="#ff0093" strokeWidth="10.0" />
+      <Line fx:id="line3" endX="341.5" endY="-250.0" fill="#05feff" layoutX="-114.0" layoutY="553.0" startX="341.5" startY="104.0" stroke="#05feff" strokeWidth="10.0" />
+   </children>
+</AnchorPane>

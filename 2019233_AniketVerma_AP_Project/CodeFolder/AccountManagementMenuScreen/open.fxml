@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Point3D?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Arc?>
+<?import javafx.scene.shape.Circle?>
+
+<AnchorPane fx:id="acp" prefHeight="633.0" prefWidth="616.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Circle fx:id="ball" fill="#ebea15" layoutX="306.0" layoutY="584.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+      <Arc fx:id="OSBarc" fill="#05feff" layoutX="309.0" layoutY="162.0" length="80.0" radiusX="130.0" radiusY="139.0" startAngle="49.0" stroke="BLACK" strokeType="INSIDE" />
+      <Arc fx:id="OParc" fill="#ff0093" layoutX="333.0" layoutY="134.0" length="80.0" radiusX="130.0" radiusY="139.0" startAngle="139.0" stroke="BLACK" strokeType="INSIDE" />
+      <Arc fx:id="OPUarc" fill="#8000f4" layoutX="404.0" layoutY="19.0" length="80.0" radiusX="130.0" radiusY="139.0" rotate="-90.0" startAngle="229.0" stroke="BLACK" strokeType="INSIDE" />
+      <Arc fx:id="OYarc" fill="YELLOW" layoutX="193.0" layoutY="226.0" length="80.0" radiusX="130.0" radiusY="123.0" rotate="90.6" startAngle="-41.0" stroke="BLACK" strokeType="INSIDE">
+         <rotationAxis>
+            <Point3D z="11.0" />
+         </rotationAxis>
+      </Arc>
+   </children>
+</AnchorPane>

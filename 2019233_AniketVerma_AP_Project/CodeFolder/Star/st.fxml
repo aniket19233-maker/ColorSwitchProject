@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Polygon?>
+
+<AnchorPane fx:id="acp" prefHeight="228.0" prefWidth="345.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Polygon fx:id="star" fill="YELLOW" layoutX="173.0" layoutY="95.0" points="-24.0, -10.5, -40.0, -10.5, -30.0, 1.5, -40.0, 15.5, -24.0, 15.5, -15.0, 25.5, -4.0, 15.5, 11.0, 15.5, 2.5, 1.5, 11.0, -10.5, -4.0, -10.5, -15.0, -23.5" stroke="BLACK" strokeType="INSIDE" />
+   </children>
+</AnchorPane>

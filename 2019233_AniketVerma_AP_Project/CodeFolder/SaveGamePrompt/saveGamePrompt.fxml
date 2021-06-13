@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Arc?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="547.0" prefWidth="1000.0" style="-fx-background-color: black;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1">
+   <children>
+      <Button layoutX="446.0" layoutY="186.0" mnemonicParsing="false" style="-fx-background-color: grey;" text="YES" textFill="WHITE">
+         <font>
+            <Font name="Helvetica Neue" size="36.0" />
+         </font>
+      </Button>
+      <Button layoutX="446.0" layoutY="298.0" mnemonicParsing="false" prefHeight="68.0" prefWidth="117.0" style="-fx-background-color: grey;" text="NO" textFill="WHITE">
+         <font>
+            <Font name="Helvetica Neue" size="36.0" />
+         </font>
+      </Button>
+      <Label alignment="TOP_CENTER" layoutX="128.0" layoutY="50.0" prefHeight="60.0" prefWidth="780.0" text="Do you want to save the Game?" textFill="WHITE" underline="true">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Label>
+      <Line fx:id="line1" endX="248.5" endY="246.0" layoutX="-153.0" layoutY="-13.0" startX="199.0" startY="388.0" stroke="#e3108d" strokeWidth="10.0" />
+      <Line fx:id="line3" endX="368.5" endY="303.0" layoutX="-166.0" layoutY="-4.0" startX="218.0" startY="379.0" stroke="#f2f207" strokeWidth="10.0" />
+      <Line fx:id="line2" endX="243.5" endY="227.92892456054688" layoutX="-147.0" layoutY="-2.0" startX="349.5" startY="300.0" stroke="#0cf2d7" strokeWidth="10.0" />
+      <Arc fx:id="OSBarc" fill="#05feff" layoutX="119.0" layoutY="327.0" length="80.0" radiusX="130.0" radiusY="139.0" startAngle="49.0" stroke="BLACK" strokeType="INSIDE" />
+      <Arc fx:id="OYarc" fill="YELLOW" layoutX="107.0" layoutY="303.0" length="80.0" radiusX="130.0" radiusY="139.0" startAngle="-41.0" stroke="BLACK" strokeType="INSIDE" />
+      <Arc fx:id="OPUarc" fill="#8000f4" layoutX="122.0" layoutY="278.0" length="80.0" radiusX="130.0" radiusY="139.0" startAngle="229.0" stroke="BLACK" strokeType="INSIDE" />
+      <Arc fx:id="OParc" fill="#ff0093" layoutX="136.0" layoutY="307.0" length="80.0" radiusX="130.0" radiusY="139.0" startAngle="139.0" stroke="BLACK" strokeType="INSIDE" />
+      <Arc fx:id="OSBarc1" fill="#05feff" layoutX="839.0" layoutY="337.0" length="80.0" radiusX="130.0" radiusY="139.0" startAngle="49.0" stroke="BLACK" strokeType="INSIDE" />
+      <Arc fx:id="OYarc1" fill="YELLOW" layoutX="827.0" layoutY="313.0" length="80.0" radiusX="130.0" radiusY="139.0" startAngle="-41.0" stroke="BLACK" strokeType="INSIDE" />
+      <Arc fx:id="OPUarc1" fill="#8000f4" layoutX="842.0" layoutY="288.0" length="80.0" radiusX="130.0" radiusY="139.0" startAngle="229.0" stroke="BLACK" strokeType="INSIDE" />
+      <Arc fx:id="OParc1" fill="#ff0093" layoutX="856.0" layoutY="317.0" length="80.0" radiusX="130.0" radiusY="139.0" startAngle="139.0" stroke="BLACK" strokeType="INSIDE" />
+   </children>
+</AnchorPane>
