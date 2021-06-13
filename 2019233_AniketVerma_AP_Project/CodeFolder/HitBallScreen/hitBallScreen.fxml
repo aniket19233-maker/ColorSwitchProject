@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="596.0" prefWidth="673.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HitBallScreen.hitBallScreen">
+   <children>
+      <Button layoutX="228.0" layoutY="261.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="282.0" style="-fx-background-color: grey;" text="RESTART GAME" textFill="WHITE">
+         <font>
+            <Font name="Helvetica Neue" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="228.0" layoutY="435.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="282.0" style="-fx-background-color: grey;" text="CLAIM REWARDS" textFill="WHITE">
+         <font>
+            <Font name="Helvetica Neue" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="228.0" layoutY="176.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="282.0" style="-fx-background-color: grey;" text="CONTINUE" textFill="WHITE">
+         <font>
+            <Font name="Helvetica Neue" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="228.0" layoutY="351.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="276.0" style="-fx-background-color: grey;" text="QUIT TO MAIN MENU" textFill="WHITE">
+         <font>
+            <Font name="Helvetica Neue" size="24.0" />
+         </font>
+      </Button>
+      <Label alignment="TOP_CENTER" layoutX="60.0" layoutY="46.0" prefHeight="44.0" prefWidth="617.0" text="OOPS!!! YOU HIT THE OBSTACLE!!  " textFill="WHITE" underline="true">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="145.0" fitWidth="200.0" layoutX="21.0" layoutY="243.0">
+         <image>
+            <Image url="@../../../../Downloads/cs_logo_text_dk.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="145.0" fitWidth="200.0" layoutX="520.0" layoutY="254.0">
+         <image>
+            <Image url="@../../../../Downloads/cs_logo_text_dk.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

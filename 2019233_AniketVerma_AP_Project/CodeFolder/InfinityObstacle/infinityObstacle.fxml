@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Arc?>
+
+<AnchorPane fx:id="acp" prefHeight="444.0" prefWidth="597.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="InfinityObstacle.infinityObstacleController">
+   <children>
+      <Arc fx:id="OSBarc" fill="#05feff" layoutX="159.0" layoutY="232.0" length="80.0" radiusX="130.0" radiusY="139.0" startAngle="49.0" stroke="BLACK" strokeType="INSIDE" />
+      <Arc fx:id="OParc" fill="#ff0093" layoutX="183.0" layoutY="204.0" length="80.0" radiusX="130.0" radiusY="139.0" startAngle="139.0" stroke="BLACK" strokeType="INSIDE" />
+      <Arc fx:id="OPUarc" fill="#8000f4" layoutX="162.0" layoutY="187.0" length="80.0" radiusX="130.0" radiusY="139.0" startAngle="229.0" stroke="BLACK" strokeType="INSIDE" />
+      <Arc fx:id="OYarc" fill="YELLOW" layoutX="139.0" layoutY="208.0" length="80.0" radiusX="130.0" radiusY="139.0" startAngle="-41.0" stroke="BLACK" strokeType="INSIDE" />
+      <Arc fx:id="OYarc1" fill="YELLOW" layoutX="457.0" layoutY="203.0" length="80.0" radiusX="130.0" radiusY="139.0" startAngle="139.0" stroke="BLACK" strokeType="INSIDE" />
+      <Arc fx:id="OSBarc1" fill="#05feff" layoutX="437.0" layoutY="224.0" length="80.0" radiusX="130.0" radiusY="139.0" startAngle="49.0" stroke="BLACK" strokeType="INSIDE" />
+      <Arc fx:id="OPUarc1" fill="#8000f4" layoutX="444.0" layoutY="186.0" length="80.0" radiusX="130.0" radiusY="139.0" startAngle="229.0" stroke="BLACK" strokeType="INSIDE" />
+      <Arc fx:id="OParc1" fill="#ff0093" layoutX="424.0" layoutY="207.0" length="80.0" radiusX="130.0" radiusY="139.0" startAngle="-41.0" stroke="BLACK" strokeType="INSIDE" />
+   </children>
+</AnchorPane>

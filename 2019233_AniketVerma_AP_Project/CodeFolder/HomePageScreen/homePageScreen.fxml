@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Arc?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Ellipse?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="acp" onMouseClicked="#move" prefHeight="725.0" prefWidth="1195.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HomePageScreen.homePageScreenController">
+   <children>
+      <Label layoutX="464.0" layoutY="41.0" prefHeight="77.0" prefWidth="21.0" text="C" textFill="WHITE">
+         <font>
+            <Font size="60.0" />
+         </font>
+      </Label>
+      <Label layoutX="635.0" layoutY="43.0" prefHeight="73.0" prefWidth="30.0" text="L" textFill="WHITE">
+         <font>
+            <Font size="60.0" />
+         </font>
+      </Label>
+      <Label layoutX="808.0" layoutY="43.0" prefHeight="64.0" prefWidth="43.0" text="R" textFill="WHITE">
+         <font>
+            <Font size="60.0" />
+         </font>
+      </Label>
+      <Arc fx:id="OSBarc" fill="#05feff" layoutX="566.0" layoutY="100.0" length="80.0" radiusX="38.0" radiusY="50.0" startAngle="49.0" stroke="BLACK" strokeType="INSIDE" />
+      <Arc fx:id="OYarc" fill="YELLOW" layoutX="548.0" layoutY="80.0" length="80.0" radiusX="48.0" radiusY="41.0" startAngle="-41.0" stroke="BLACK" strokeType="INSIDE" />
+      <Arc fx:id="OPUarc" fill="#8000f4" layoutX="567.0" layoutY="59.0" length="80.0" radiusX="38.0" radiusY="50.0" startAngle="229.0" stroke="BLACK" strokeType="INSIDE" />
+      <Arc fx:id="OParc" fill="#ff0093" layoutX="583.0" layoutY="81.0" length="80.0" radiusX="48.0" radiusY="36.0" startAngle="139.0" stroke="BLACK" strokeType="INSIDE" />
+      <Arc fx:id="OSBarc1" fill="#05feff" layoutX="744.0" layoutY="101.0" length="80.0" radiusX="38.0" radiusY="50.0" startAngle="49.0" stroke="BLACK" strokeType="INSIDE" />
+      <Arc fx:id="OYarc1" fill="YELLOW" layoutX="726.0" layoutY="81.0" length="80.0" radiusX="48.0" radiusY="36.0" startAngle="-41.0" stroke="BLACK" strokeType="INSIDE" />
+      <Arc fx:id="OPUarc1" fill="#8000f4" layoutX="745.0" layoutY="60.0" length="80.0" radiusX="38.0" radiusY="50.0" startAngle="229.0" stroke="BLACK" strokeType="INSIDE" />
+      <Arc fx:id="OParc1" fill="#ff0093" layoutX="762.0" layoutY="81.0" length="80.0" radiusX="48.0" radiusY="36.0" startAngle="139.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="531.0" layoutY="125.0" prefHeight="38.0" prefWidth="243.0" text="SWITCH" textFill="WHITE">
+         <font>
+            <Font size="60.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="229.0" fitWidth="410.0" layoutX="456.0" layoutY="482.0">
+         <image>
+            <Image url="@../../../../Downloads/cs_logo_text_dk.png" />
+         </image>
+      </ImageView>
+      <Button id="NoAds" graphicTextGap="5.0" layoutX="874.0" layoutY="192.0" mnemonicParsing="false" prefHeight="73.0" prefWidth="75.0" style="-fx-background-color: grey; -fx-background-radius: 80;" text="NO ADS" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="Helvetica Neue" size="17.0" />
+         </font>
+      </Button>
+      <Circle fill="GREY" layoutX="400.0" layoutY="232.0" radius="44.0" stroke="BLACK" strokeType="INSIDE" />
+      <Button id="Infinity" fx:id="inf" layoutX="358.0" layoutY="198.0" mnemonicParsing="false" prefHeight="68.0" prefWidth="82.0" style="-fx-background-color: grey; -fx-background-radius: 80;" text="∞" textFill="WHITE">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Button>
+      <Button fx:id="play" layoutX="596.0" layoutY="297.0" mnemonicParsing="false" prefHeight="140.0" prefWidth="132.0" style="-fx-background-color: grey; -fx-background-radius: 80;" />
+      <Polygon id="BtnTr&lt;" fill="#fafdff" layoutX="660.0" layoutY="380.0" points="-18.0, 22.5, 37.5, -12.5, -18.0, -48.5" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="5.0" />
+      <Arc fx:id="OSBarc2" fill="#05feff" layoutX="659.0" layoutY="363.0" length="80.0" radiusX="111.0" radiusY="87.0" startAngle="49.0" stroke="BLACK" strokeType="INSIDE" />
+      <Arc fx:id="OYarc2" fill="YELLOW" layoutX="657.0" layoutY="368.0" length="80.0" radiusX="92.0" radiusY="114.0" startAngle="-41.0" stroke="BLACK" strokeType="INSIDE" />
+      <Arc fx:id="OPUarc2" fill="#8000f4" layoutX="663.0" layoutY="371.0" length="80.0" radiusX="111.0" radiusY="87.0" startAngle="229.0" stroke="BLACK" strokeType="INSIDE" />
+      <Arc fx:id="OParc2" fill="#ff0093" layoutX="665.0" layoutY="368.0" length="80.0" radiusX="92.0" radiusY="109.0" startAngle="139.0" stroke="BLACK" strokeType="INSIDE" />
+      <Button layoutX="359.0" layoutY="99.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="82.0" style="-fx-background-color: grey; -fx-background-radius: 80;" textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Line endY="-17.0" layoutX="385.0" layoutY="139.0" startY="16.0" stroke="#f8f3f3" strokeWidth="3.0" />
+      <Line endY="-22.5" layoutX="416.0" layoutY="145.0" startY="9.5" stroke="#f8f3f3" strokeWidth="3.0" />
+      <Line endX="20.5" endY="6.5" layoutX="395.0" layoutY="149.0" startX="-11.5" startY="6.5" stroke="#f8f3f3" strokeWidth="3.0" />
+      <Line endX="20.5" endY="6.5" layoutX="395.0" layoutY="118.0" startX="-11.5" startY="6.5" stroke="#f8f3f3" strokeWidth="3.0" />
+      <Line endX="6.0" endY="6.5" layoutX="405.0" layoutY="128.0" startX="-7.0" startY="20.0" stroke="#f8f3f3" strokeWidth="3.0" />
+      <Line endX="-24.0" endY="1.0" layoutX="415.0" layoutY="138.0" startX="-15.0" startY="10.0" stroke="#f8f3f3" strokeWidth="3.0" />
+      <Line endX="-39.0" endY="-35.0" layoutX="425.0" layoutY="153.0" startX="-11.0" startY="-35.0" stroke="#f8f3f3" strokeWidth="3.0" />
+      <Line endX="-49.0" endY="-33.0" layoutX="435.0" layoutY="158.0" startX="-49.0" startY="-39.0" stroke="#f8f3f3" />
+      <Line endX="-49.0" endY="-33.0" layoutX="465.0" layoutY="157.0" startX="-49.0" startY="-39.0" stroke="#f8f3f3" />
+      <Button layoutX="874.0" layoutY="109.0" mnemonicParsing="false" prefHeight="73.0" prefWidth="75.0" style="-fx-background-color: grey; -fx-background-radius: 80;" textFill="WHITE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="21.0" layoutX="895.0" layoutY="140.0" stroke="BLACK" strokeType="INSIDE" width="17.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="21.0" layoutX="912.0" layoutY="140.0" stroke="BLACK" strokeType="INSIDE" width="17.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="7.0" layoutX="895.0" layoutY="133.0" stroke="BLACK" strokeType="INSIDE" width="17.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="7.0" layoutX="912.0" layoutY="133.0" stroke="BLACK" strokeType="INSIDE" width="17.0" />
+      <Ellipse fill="#171717" layoutX="904.0" layoutY="129.0" radiusX="11.0" radiusY="4.0" rotate="20.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse fill="#111010" layoutX="921.0" layoutY="129.0" radiusX="11.0" radiusY="4.0" rotate="-20.0" stroke="BLACK" strokeType="INSIDE" />
+      <Button layoutX="360.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#openSettingsScreen" prefHeight="77.0" prefWidth="82.0" style="-fx-background-color: grey; -fx-background-radius: 80;" />
+      <Button fx:id="help" layoutX="873.0" layoutY="24.0" mnemonicParsing="false" onMouseClicked="#openHelpScreen" prefHeight="77.0" prefWidth="82.0" style="-fx-background-color: grey; -fx-background-radius: 80;" text="?" textFill="WHITE">
+         <font>
+            <Font name="Helvetica Neue" size="38.0" />
+         </font>
+      </Button>
+      <Circle fill="WHITE" layoutX="402.0" layoutY="51.0" onMouseClicked="#openSettingsScreen" radius="18.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fill="GREY" layoutX="402.0" layoutY="50.0" onMouseClicked="#openSettingsScreen" radius="7.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="12.0" layoutX="396.0" layoutY="25.0" onMouseClicked="#openSettingsScreen" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="12.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="12.0" layoutX="415.0" layoutY="35.0" onMouseClicked="#openSettingsScreen" rotate="60.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="12.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="12.0" layoutX="415.0" layoutY="56.0" onMouseClicked="#openSettingsScreen" rotate="-50.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="12.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="12.0" layoutX="396.0" layoutY="66.0" onMouseClicked="#openSettingsScreen" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="12.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="14.0" layoutX="380.0" layoutY="34.0" onMouseClicked="#openSettingsScreen" rotate="-55.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="12.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="17.0" layoutX="380.0" layoutY="50.0" onMouseClicked="#openSettingsScreen" rotate="50.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="12.0" />
+      <Label fx:id="hs" layoutX="547.0" layoutY="212.0" text="BEST SCORE : 0" textFill="WHITE">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

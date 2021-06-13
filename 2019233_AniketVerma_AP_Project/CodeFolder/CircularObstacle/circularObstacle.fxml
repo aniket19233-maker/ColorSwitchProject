@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Arc?>
+<?import javafx.scene.shape.Circle?>
+
+<AnchorPane fx:id="acp" onMouseClicked="#move" prefHeight="466.0" prefWidth="564.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CircularObstacle.circularObstacleController">
+   <children>
+      <Circle fx:id="OBcircle" fill="#1d1d1e" layoutX="281.0" layoutY="233.0" radius="139.0" stroke="BLACK" strokeType="INSIDE" />
+      <Arc fx:id="OSBarc" fill="#05feff" layoutX="279.0" layoutY="257.0" length="80.0" radiusX="130.0" radiusY="139.0" startAngle="49.0" stroke="BLACK" strokeType="INSIDE" />
+      <Arc fx:id="OYarc" fill="YELLOW" layoutX="267.0" layoutY="233.0" length="80.0" radiusX="130.0" radiusY="139.0" startAngle="-41.0" stroke="BLACK" strokeType="INSIDE" />
+      <Arc fx:id="OPUarc" fill="#8000f4" layoutX="282.0" layoutY="208.0" length="80.0" radiusX="130.0" radiusY="139.0" rotate="-2.0" startAngle="229.0" stroke="BLACK" strokeType="INSIDE" />
+      <Arc fx:id="OParc" fill="#ff0093" layoutX="296.0" layoutY="237.0" length="80.0" radiusX="130.0" radiusY="139.0" startAngle="139.0" stroke="BLACK" strokeType="INSIDE" />
+   </children>
+</AnchorPane>

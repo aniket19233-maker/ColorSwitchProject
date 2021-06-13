@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Arc?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Ellipse?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="acp" prefHeight="862.0" prefWidth="1175.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GameScreen.gameScreen">
+   <children>
+      <Label layoutX="474.0" layoutY="541.0" prefHeight="77.0" prefWidth="21.0" text="C" textFill="WHITE">
+         <font>
+            <Font size="60.0" />
+         </font>
+      </Label>
+      <Label layoutX="645.0" layoutY="543.0" prefHeight="73.0" prefWidth="30.0" text="L" textFill="WHITE">
+         <font>
+            <Font size="60.0" />
+         </font>
+      </Label>
+      <Label layoutX="818.0" layoutY="543.0" prefHeight="64.0" prefWidth="43.0" text="R" textFill="WHITE">
+         <font>
+            <Font size="60.0" />
+         </font>
+      </Label>
+      <Arc fx:id="OSBarc" fill="#05feff" layoutX="576.0" layoutY="600.0" length="80.0" radiusX="38.0" radiusY="50.0" startAngle="49.0" stroke="BLACK" strokeType="INSIDE" />
+      <Arc fx:id="OYarc" fill="YELLOW" layoutX="558.0" layoutY="580.0" length="80.0" radiusX="48.0" radiusY="41.0" startAngle="-41.0" stroke="BLACK" strokeType="INSIDE" />
+      <Arc fx:id="OPUarc" fill="#8000f4" layoutX="577.0" layoutY="559.0" length="80.0" radiusX="38.0" radiusY="50.0" startAngle="229.0" stroke="BLACK" strokeType="INSIDE" />
+      <Arc fx:id="OParc" fill="#ff0093" layoutX="593.0" layoutY="581.0" length="80.0" radiusX="48.0" radiusY="36.0" startAngle="139.0" stroke="BLACK" strokeType="INSIDE" />
+      <Arc fx:id="OSBarc1" fill="#05feff" layoutX="754.0" layoutY="601.0" length="80.0" radiusX="38.0" radiusY="50.0" startAngle="49.0" stroke="BLACK" strokeType="INSIDE" />
+      <Arc fx:id="OYarc1" fill="YELLOW" layoutX="736.0" layoutY="581.0" length="80.0" radiusX="48.0" radiusY="36.0" startAngle="-41.0" stroke="BLACK" strokeType="INSIDE" />
+      <Arc fx:id="OPUarc1" fill="#8000f4" layoutX="755.0" layoutY="560.0" length="80.0" radiusX="38.0" radiusY="50.0" startAngle="229.0" stroke="BLACK" strokeType="INSIDE" />
+      <Arc fx:id="OParc1" fill="#ff0093" layoutX="772.0" layoutY="581.0" length="80.0" radiusX="48.0" radiusY="36.0" startAngle="139.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="541.0" layoutY="625.0" prefHeight="38.0" prefWidth="243.0" text="SWITCH" textFill="WHITE">
+         <font>
+            <Font size="60.0" />
+         </font>
+      </Label>
+      <Button fx:id="pause" layoutX="919.0" layoutY="22.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="76.0" style="-fx-background-color: grey; -fx-background-radius: 80;" text="| |" textFill="WHITE">
+         <font>
+            <Font name="Helvetica Neue" size="41.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="NE_RESIZE" />
+         </cursor>
+      </Button>
+      <Label fx:id="score" alignment="CENTER" layoutX="281.0" layoutY="34.0" prefHeight="71.0" prefWidth="120.0" style="-fx-background-color: black;" text="0" textFill="WHITE">
+         <font>
+            <Font size="58.0" />
+         </font>
+      </Label>
+      <Ellipse fill="WHITE" layoutX="621.0" layoutY="774.0" radiusX="17.0" radiusY="10.0" rotate="45.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Ellipse fill="WHITE" layoutX="634.0" layoutY="762.0" radiusX="24.0" radiusY="10.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Ellipse fill="WHITE" layoutX="644.0" layoutY="773.0" radiusX="13.0" radiusY="10.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Ellipse fill="WHITE" layoutX="654.0" layoutY="773.0" radiusX="13.0" radiusY="10.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Ellipse fill="#f2f2f2" layoutX="664.0" layoutY="774.0" radiusX="14.0" radiusY="6.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Ellipse fill="WHITE" layoutX="645.0" layoutY="786.0" radiusX="22.0" radiusY="19.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fx:id="b2" layoutX="149.0" layoutY="137.0" radius="17.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="b3" layoutX="149.0" layoutY="189.0" radius="17.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="b4" layoutX="149.0" layoutY="235.0" radius="17.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="b5" layoutX="149.0" layoutY="287.0" radius="17.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="b6" layoutX="149.0" layoutY="344.0" radius="17.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="b1" layoutX="149.0" layoutY="87.0" radius="17.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="b7" layoutX="149.0" layoutY="392.0" radius="17.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="b8" layoutX="149.0" layoutY="448.0" radius="17.0" stroke="BLACK" strokeType="INSIDE" />
+   </children>
+</AnchorPane>
